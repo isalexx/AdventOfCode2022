@@ -6,7 +6,9 @@
         {
             // DayOne.dayOneSolution();
             
-            DayTwo.dayTwoSolution();
+            // DayTwo.dayTwoSolution();
+            
+            DayThree.dayThreeSolution();
         }
     }
 }
