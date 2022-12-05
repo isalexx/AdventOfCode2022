@@ -4,12 +4,14 @@ using System.Linq;
 
 namespace AdventOfCode2022
 {
-    class Program
+    class DayOne
     {
         private static DataTable DataTable = new DataTable();
         
-        public static void Main(string[] args)
+        public static void dayOneSolution()
         {
+            Console.WriteLine("--- Solutions for Day One ---");
+            
             string rawInput = System.IO.File.ReadAllText(@"H:\Personal\Programming\Csharp\AdventOfCode2022\AdventOfCode2022\dayOne\input.txt");
 
             var groupedValues = rawInput.Split("\r\n\r\n");
