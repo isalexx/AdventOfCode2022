@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode2022
+﻿using AdventOfCode2022.dayFour;
+
+namespace AdventOfCode2022
 {
     public class main
     {
@@ -8,7 +10,9 @@
             
             // DayTwo.dayTwoSolution();
             
-            DayThree.dayThreeSolution();
+            // DayThree.dayThreeSolution();
+
+            // DayFour.dayFourSolution();
         }
     }
 }

@@ -13,14 +13,16 @@ namespace AdventOfCode2022
         {
             Console.WriteLine("--- Solutions for Day Three ---");
             
-            Console.WriteLine($"Answer for part one: {partOne()}");
+            var rawInput = System.IO.File.ReadAllLines(@"H:\Personal\Programming\Csharp\AdventOfCode2022\AdventOfCode2022\dayThree\input.txt");
+
             
-            Console.WriteLine($"Answer for part two: {partTwo()}");
+            Console.WriteLine($"Answer for part one: {partOne(rawInput)}");
+            
+            Console.WriteLine($"Answer for part two: {partTwo(rawInput)}");
         }
 
-        private static int partOne()
+        private static int partOne(string[] rawInput)
         {
-            var rawInput = System.IO.File.ReadAllLines(@"H:\Personal\Programming\Csharp\AdventOfCode2022\AdventOfCode2022\dayThree\input.txt");
 
             var sum = 0;
             
@@ -39,9 +41,8 @@ namespace AdventOfCode2022
             return sum;
         }
         
-        private static int partTwo()
+        private static int partTwo(string[] rawInput)
         {
-            var rawInput = System.IO.File.ReadAllLines(@"H:\Personal\Programming\Csharp\AdventOfCode2022\AdventOfCode2022\dayThree\input.txt");
 
             var sum = 0;
             
