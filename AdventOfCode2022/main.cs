@@ -1,4 +1,5 @@
-﻿using AdventOfCode2022.dayFour;
+﻿using AdventOfCode2022.dayFive;
+using AdventOfCode2022.dayFour;
 
 namespace AdventOfCode2022
 {
@@ -13,6 +14,8 @@ namespace AdventOfCode2022
             // DayThree.dayThreeSolution();
 
             // DayFour.dayFourSolution();
+            
+            DayFive.dayFiveSolution();
         }
     }
 }
